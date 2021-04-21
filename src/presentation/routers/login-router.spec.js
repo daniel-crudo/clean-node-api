@@ -13,7 +13,7 @@ const makeSut = () => {
   const sut = new LoginRouter(authUseCaseSpy)
   return {
     sut,
-    authUseCase
+    authUseCaseSpy
   }
 }
 
